@@ -1,0 +1,34 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MahjongGameUIViewContext : BaseContext
+{
+    public MahjongGameUIViewContext() : base(UIType.MahjongUIView)
+    {
+    }
+}
+
+public class MahjongGameUIView : BaseView {
+
+    #region Override Base Method
+
+    public override void OnEnter(BaseContext context)
+    { 
+    }
+    public override void OnPause(BaseContext context)
+    {
+        base.OnPause(context);
+    }
+    public override void OnResume(BaseContext context)
+    {
+        base.OnResume(context);
+    }
+    public override void OnExit(BaseContext context)
+    {
+        base.OnExit(context);
+    }
+    #endregion
+
+
+}
