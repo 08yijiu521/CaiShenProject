@@ -93,6 +93,7 @@
     <Compile Include="Assets\02_Scripts\01_CreateRoomScene\CreateRoomViewMgr.cs" />
     <Compile Include="Assets\02_Scripts\01_CreateRoomScene\JoinRoomNum.cs" />
     <Compile Include="Assets\02_Scripts\02_Mahjong\DealController.cs" />
+    <Compile Include="Assets\02_Scripts\02_Mahjong\MJGameController.cs" />
     <Compile Include="Assets\02_Scripts\02_Mahjong\MahjongGameUIView.cs" />
     <Compile Include="Assets\02_Scripts\02_Mahjong\TangShan\DHM_CardManager.cs" />
     <Compile Include="Assets\02_Scripts\02_Mahjong\TangShan\DHM_HandAnimationCtr.cs" />
